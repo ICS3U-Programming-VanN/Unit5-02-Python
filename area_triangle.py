@@ -9,14 +9,14 @@
 # This function calculates and displays the area of a triangle
 def calc_area(height, base):
     """
-    calc_area() calculates and displays the area to the user
+    Calculates and displays the area (of a triangle) to the user
 
     :param height: Height measurement of the Triangle
     :param base: Base measurement of the Triangle
     """
 
     # Calculates the area
-    area = (base * height) / 2
+    area = round((base * height) / 2, 2)
 
     # Displays the area of the triangle to the user
     print(f"The area of the triangle: {area}cm^2")
